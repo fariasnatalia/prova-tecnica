@@ -1,34 +1,51 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Instruções para rodar/inicializar o projeto
 
-## Getting Started
+```bash 
+# Clone o projeto
+$ git clone https://github.com/fariasnatalia/prova-tecnica.git
 
-First, run the development server:
+# Entre na pasta do projeto
+$ cd prova-tecnica
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+# Instale as dependências
+$ npm install
+
+# Rode este comando pra iniciar o projeto
+$ npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+# Requisitos da prova :
 
-To learn more about Next.js, take a look at the following resources:
+● Criação de um projeto React utilizando TypeScript.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+● Utilização de Redux e Redux-Sagas para gerenciar o estado da aplicação (OPCIONAL)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+● Implementação de uma tela minimalista com os seguintes elementos:
 
-## Deploy on Vercel
+* Um cabeçalho contendo o título da página;
+* Um campo de entrada de texto;
+* Um botão para adicionar itens a uma lista;
+* Uma lista que exibe os itens adicionados;
+* Cada item da lista deve ter um botão para removê-lo.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+● A tela deve ser responsiva, ajustando-se automaticamente a diferentes tamanhos de tela, principalmente no mobile.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+● Deve ser utilizado o Tailwind CSS para estilizar os elementos da tela.
+
+● É necessário a implementação de testes unitários e de integração utilizando o Jest e o Enzyme/Vitest para os
+componentes React.
+
+● Os testes devem cobrir a funcionalidade dos componentes e suas interações.
+
+● A Implementação de testes end-to-end (E2E) utilizando o Cypress é (OPCIONAL)
+
+● Os testes devem cobrir a interação do usuário com a tela e a verificação da
+correta adição e remoção de itens da lista.
+
+
+
+
+
