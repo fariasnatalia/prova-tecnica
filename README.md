@@ -1,4 +1,4 @@
-Instruções para rodar/inicializar o projeto
+# Instruções para rodar/inicializar o projeto
 
 ```bash 
 # Clone o projeto
@@ -14,10 +14,12 @@ $ npm install
 $ npm run dev
 ```
 
+## Endereço da aplicação hospedado na versel
+
+        https://prova-tecnica-tau.vercel.app/
 
 
-
-# Requisitos da prova :
+## Requisitos da prova :
 
 ● Criação de um projeto React utilizando TypeScript.
 
